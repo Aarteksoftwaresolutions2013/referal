@@ -1,0 +1,17 @@
+<?php
+if($_SERVER['REMOTE_ADDR'] == '127.0.0.1'){
+ 
+$host = "localhost";
+$user = "root";
+$pass =  "root";
+$db   = "CD_generator";
+
+  
+}
+
+
+mysql_connect($host,$user,$pass) or die ("connection error");
+
+mysql_select_db($db) or die ("Database not found");
+
+?>

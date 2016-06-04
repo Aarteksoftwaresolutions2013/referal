@@ -1,0 +1,157 @@
+/********** Tables **********/
+
+#content table {
+	border-collapse: collapse;
+	width: 100%;
+}
+                
+#content table thead th {
+	border-bottom: 1px solid #ddd;
+	font-weight: bold;
+	font-size:18px;
+color: grey;
+
+}
+                
+#content tbody {
+	border-bottom: 1px solid #ddd;
+}
+                
+#content tbody tr {
+	background: #fff;
+}
+              
+#content tbody tr.alt-row {
+	background: #f5f5f5;
+}
+ 
+#content table tbody td, #content table th {
+	line-height: 30px;
+	padding: 0 10px;	
+	text-align:center;
+	vertical-align: middle;
+}
+
+#content table th {
+	font-size: 12px;
+	line-height: 45px;
+}
+
+#content table tbody td img {
+	margin-right: 5px;
+	vertical-align: text-top;
+}
+				
+#content table tfoot td {
+	padding: 10px 0 0 0;
+}
+
+tfoot .bulk-actions select, tfoot .bulk-actions a {
+	display: inline-block;
+	vertical-align: top;
+}
+
+tfoot .bulk-actions {
+	float: left;
+}
+
+tfoot .pagination {
+	float: right;
+}
+
+tfoot .pagination a {
+	float: left;
+	line-height: 22px;
+	margin: 0 2px;
+	padding: 0 6px;
+}
+
+/********** Buttons **********/
+
+#header_buttons {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	z-index: 3000;
+}
+
+#header_buttons > a, #header_buttons > .modal > a {
+	background: #0d3d62;
+	color: #3190c2;
+	display: block;
+	letter-spacing: 1px;
+	line-height: 18px;
+	float: left;
+	font-size: 9px;
+	margin-left: 10px;
+	padding: 0 10px;
+	position: relative;
+	text-decoration: none;
+}
+
+#header_buttons > a:hover, #header_buttons > .modal > a:hover {
+	color: #7bc4ea;
+}
+
+#header_buttons > a img, #header_buttons > .modal > a img {
+	margin: -2px 5px 0 0;
+	vertical-align: middle;
+}
+
+.addbutton {
+	background: url(plus.png) no-repeat center left;
+	color: #479e39;
+	display: inline-block;
+	padding-left: 20px;
+	text-decoration: none;
+}
+
+.addbutton:hover {
+	text-decoration: underline;
+}
+
+.graybutton {
+	background: url(tab_bg.png) #fff bottom repeat-x;
+	border: 1px solid #c4c4c4;
+	color: #000;
+	display: block;
+	line-height: 22px;
+	padding: 0 10px;
+	text-decoration: none;
+}
+
+.graybutton:hover, tfoot .pagination a.graybutton.active {
+	background: url(bluebutton_bg.png) #666666  bottom repeat-x;
+	border: 1px solid #0f1f29;
+	color: #fff;
+	text-decoration: none;
+}
+
+form input[type="submit"] {
+	background: url(images/bluebutton_bg.png);
+	border: 1px solid #0c2e5a;
+	border-top: 1px solid #00a8ff;
+	color: #b3e2fb;
+	cursor: pointer;
+	margin-top: 20px;	
+	padding: 3px 10px;
+}
+
+form input[type="submit"]:hover {
+	text-decoration: underline;
+}
+/********** Custom <select> **********/
+
+
+table.pagination textarea {
+		background-color: rgba(255, 255, 255, 0.4);
+border: 5px solid rgba(198,246,255,1);
+padding: 10px;
+font-family: Keffeesatz, Arial;
+color: #4b4b4b;
+font-size: 16px;
+-webkit-border-radius: 5px;
+color:#7ac000;
+margin-top:10px;
+
+	}
